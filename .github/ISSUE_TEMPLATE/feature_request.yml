@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > _Thank you for filing a new feature request. We very much appreciate your time._
+        > _Thanks for filing a new feature request. We appreciate your time and effort. Please answer a few questions._
   - type: dropdown
     id: checked-duplicates
     attributes:
