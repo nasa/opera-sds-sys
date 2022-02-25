@@ -29,7 +29,7 @@ body:
     validations:
       required: yes
   - type: textarea
-    id: feature-problem
+    id: related-problem
     attributes:
       label: Related problem
       description: Is your feature request related to a problem? Please help us understand if so.
@@ -38,7 +38,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: feature-description
+    id: description
     attributes:
       label: Describe the feature request
       description: A clear and concise description of your request. 
