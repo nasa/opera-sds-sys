@@ -11,7 +11,7 @@ body:
     id: checked-duplicates
     attributes:
       label: Checked for duplicates
-      description: Have you checked for duplicate issues?
+      description: Have you checked for duplicate issue tickets?
       multiple: false
       options:
         - "Yes - I've already checked"
@@ -24,7 +24,7 @@ body:
       label: Describe the bug
       description: A clear and concise description of what the bug is. Plain-text snippets preferred but screenshots welcome.
       placeholder: Tell us what you saw
-      value: "When I did [...] action, I noticed [...]"
+      value: "Whe I did [...] action, I noticed [...]"
     validations:
       required: true
   - type: textarea
