@@ -29,12 +29,12 @@ body:
     validations:
       required: yes
   - type: textarea
-    id: related-problem
+    id: related-problems
     attributes:
-      label: Related problem
-      description: Is your feature request related to a problem? Please help us understand if so, including linking to any other issue tickets.
-      placeholder: Tell us the problem
-      value: "I'm frustrated when [...] happens"
+      label: Related problems
+      description: Is your feature request related to any problems? Please help us understand if so, including linking to any other issue tickets.
+      placeholder: Tell us the problems
+      value: "I'm frustrated when [...] happens as documented in issue-XYZ"
     validations:
       required: false
   - type: textarea
