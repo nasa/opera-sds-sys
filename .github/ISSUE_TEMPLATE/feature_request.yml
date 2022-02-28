@@ -11,7 +11,7 @@ body:
     id: checked-duplicates
     attributes:
       label: Checked for duplicates
-      description: Have you checked for duplicate issues?
+      description: Have you checked for duplicate issue tickets?
       multiple: false
       options:
         - "Yes - I've already checked"
@@ -32,9 +32,9 @@ body:
     id: related-problem
     attributes:
       label: Related problem
-      description: Is your feature request related to a problem? Please help us understand if so.
+      description: Is your feature request related to a problem? Please help us understand if so, including linking to any other issue tickets.
       placeholder: Tell us the problem
-      value: "Ex. I'm frustrated when [...] happens"
+      value: "I'm frustrated when [...] happens"
     validations:
       required: false
   - type: textarea
@@ -43,6 +43,6 @@ body:
       label: Describe the feature request
       description: A clear and concise description of your request. 
       placeholder: Tell us what you want
-      value: "Ex. I need or want [...]"
+      value: "I need or want [...]"
     validations:
       required: true
