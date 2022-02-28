@@ -24,7 +24,7 @@ body:
       label: Describe the bug
       description: A clear and concise description of what the bug is. Plain-text snippets preferred but screenshots welcome.
       placeholder: Tell us what you saw
-      value: "Whe I did [...] action, I noticed [...]"
+      value: "When I did [...] action, I noticed [...]"
     validations:
       required: true
   - type: textarea
